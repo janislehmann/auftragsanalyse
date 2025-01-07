@@ -1,7 +1,7 @@
 <template>
     <div class="container mt-4">
         <h2>Mitarbeiter</h2>
-        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#addcanvas">Add</button>
+        <button class="btn btn-primary float-end" type="button" data-bs-toggle="offcanvas" data-bs-target="#addcanvas">Add</button>
         <table class="table table-striped">
             <thead>
                 <tr>

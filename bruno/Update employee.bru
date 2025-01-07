@@ -4,18 +4,21 @@ meta {
   seq: 5
 }
 
-patch {
+put {
   url: http://127.0.0.1:8000/employees/:id
   body: json
   auth: none
 }
 
 params:path {
-  id: 6755fdc684c43f116b08ae96
+  id: 676d6031e453a55db488bc8d
 }
 
 body:json {
   {
-    "name": "betterhans"
+      "name": "Max",
+      "surname": "Muster",
+      "team": "Usa",
+      "position": "Chef"
   }
 }
